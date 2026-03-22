@@ -21,8 +21,8 @@ export default function Home() {
             🦞 龙虾懂你
           </Link>
           <div className="flex items-center gap-1">
-            <Link href="/privacy" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">隐私</Link>
-            <Link href="/terms" className="rounded-lg px-3 py-2 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">条款</Link>
+            <Link href="/privacy" className="rounded-lg px-3 py-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">隐私</Link>
+            <Link href="/terms" className="rounded-lg px-3 py-3 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground">条款</Link>
             <ThemeToggle />
           </div>
         </nav>
@@ -64,9 +64,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-2xl flex-col items-center gap-4 px-4 py-8 text-sm text-muted-foreground sm:flex-row sm:justify-between sm:px-6">
           <p>&copy; {new Date().getFullYear()} 龙虾懂你 &middot; OpenClaw Quiz</p>
           <div className="flex gap-2">
-            <Link href="/" className="rounded-lg px-3 py-2 transition-colors hover:text-foreground">首页</Link>
-            <Link href="/privacy" className="rounded-lg px-3 py-2 transition-colors hover:text-foreground">隐私</Link>
-            <Link href="/terms" className="rounded-lg px-3 py-2 transition-colors hover:text-foreground">条款</Link>
+            <Link href="/" className="rounded-lg px-3 py-3 transition-colors hover:text-foreground">首页</Link>
+            <Link href="/privacy" className="rounded-lg px-3 py-3 transition-colors hover:text-foreground">隐私</Link>
+            <Link href="/terms" className="rounded-lg px-3 py-3 transition-colors hover:text-foreground">条款</Link>
           </div>
         </div>
       </footer>
